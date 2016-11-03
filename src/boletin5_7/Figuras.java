@@ -10,7 +10,7 @@ public class Figuras {
         case 1:
         float lado=Float.parseFloat(JOptionPane.showInputDialog("lado"));
         // area= lado*lado;
-        System.out.println("area = " + lado*lado);
+        JOptionPane.showMessageDialog(null, "area =" + lado*lado);
         break;
         case 2:     
         float altura=Float.parseFloat(JOptionPane.showInputDialog("altura"));
