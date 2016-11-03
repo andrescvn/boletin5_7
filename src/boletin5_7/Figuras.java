@@ -10,18 +10,18 @@ public class Figuras {
         case 1:
         float lado=Float.parseFloat(JOptionPane.showInputDialog("lado"));
         // area= lado*lado;
-        JOptionPane.showMessageDialog(null, "area =" + lado*lado);
+        JOptionPane.showMessageDialog(null, "area =" + (lado*lado));
         break;
         case 2:     
         float altura=Float.parseFloat(JOptionPane.showInputDialog("altura"));
         float base=Float.parseFloat(JOptionPane.showInputDialog("base"));
         //area=base*altura/2;
-        System.out.println("area = " + (base*altura/2));
+        JOptionPane.showMessageDialog(null, "area =" + (base*altura));;
         break;
         case 3:
         float radio=Float.parseFloat(JOptionPane.showInputDialog("radio"));
        // area=(float) (2*3.14*radio);
-        System.out.println("area = " + (2*3.14*radio));
+        JOptionPane.showMessageDialog(null, "area =" + (2*3.14*radio));
         break;
         default:
         System.out.println("incorrecto");    
