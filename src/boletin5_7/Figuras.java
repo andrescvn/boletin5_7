@@ -25,6 +25,7 @@ public class Figuras {
         break;
         default:
         JOptionPane.showMessageDialog(null, "error");    
+        //rege
     }   
     }  
 }
