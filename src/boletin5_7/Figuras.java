@@ -24,7 +24,7 @@ public class Figuras {
         JOptionPane.showMessageDialog(null, "area =" + (2*3.14*radio));
         break;
         default:
-        System.out.println("incorrecto");    
+        JOptionPane.showMessageDialog(null, "error");    
     }   
     }  
 }
